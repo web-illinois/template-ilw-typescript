@@ -15,7 +15,8 @@
         ".": {
             "import": "./dist/<%= name %>.js",
             "require": "./dist/<%= name %>.cjs",
-            "default": "./dist/<%= name %>.js"
+            "default": "./dist/<%= name %>.js",
+            "types": "./dist/<%= name %>.d.ts"
         },
         "./<%= name %>.css": {
             "import": "./dist/<%= name %>.css"
